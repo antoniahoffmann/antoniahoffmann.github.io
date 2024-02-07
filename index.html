@@ -1,1 +1,188 @@
-Hello YOGA
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonia's Yoga Studio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: #a2d9ce;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #fff;
+        }
+
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+            background-color: #48c9b0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 5px 20px;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: #117a65;
+        }
+
+        .intro {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .intro h2 {
+            color: #117a65;
+        }
+
+        .intro p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .timetable {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .timetable th, .timetable td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .timetable th {
+            background-color: #48c9b0;
+            color: white;
+        }
+
+        .timetable tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin-right: 0;
+            }
+
+            .timetable, .timetable th, .timetable td {
+                display: block;
+            }
+
+            .timetable th, .timetable td {
+                text-align: left;
+            }
+
+            .timetable td {
+                padding-left: 50%;
+                position: relative;
+            }
+
+            .timetable td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                font-weight: bold;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Antonia's Yoga Studio</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#timetable">Timetable</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="intro" id="home">
+        <div class="container">
+            <h2>Welcome to Antonia's Yoga Studio</h2>
+            <p>Embark on a journey of tranquility and strength with Antonia, a dedicated yoga instructor passionate about sharing the art of mindfulness and flexibility. Join us in a serene environment to nurture your body and soul.</p>
+        </div>
+    </section>
+
+    <section class="container" id="timetable">
+        <h2>Weekly Yoga Timetable</h2>
+        <table class="timetable">
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Class Type</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Day">Monday</td>
+                    <td data-label="Time">08:00 - 09:00 AM</td>
+                    <td data-label="Class Type">Hatha Yoga</td>
+                </tr>
+                <tr>
+                    <td data-label="Day">Wednesday</td>
+                    <td data-label="Time">06:00 - 07:00 PM</td>
+                    <td data-label="Class Type">Vinyasa Yoga</td>
+                </tr>
+                <tr>
+                    <td data-label="Day">Friday</td>
+                    <td data-label="Time">07:00 - 08:00 PM</td>
+                    <td data-label="Class Type">Yin Yoga</td>
+                </tr>
+                <tr>
+                    <td data-label="Day">Saturday</td>
+                    <td data-label="Time">10:00 - 11:30 AM</td>
+                    <td data-label="Class Type">Ashtanga Yoga</td>
+                </tr>
+                <tr>
+                    <td data-label="Day">Sunday</td>
+                    <td data-label="Time">09:00 - 10:00 AM</td>
+                    <td data-label="Class Type">Restorative Yoga</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Antonia's Yoga Studio</p>
+        </div>
+    </footer>
+</body>
+</html>
