@@ -1,0 +1,27 @@
+{
+  "name": "yoga-mit-antonia.de",
+  "version": "1.0.0",
+  "description": "Yoga mit Antonia",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html && cp CNAME dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "./"
+  },
+  "keywords": [
+    "yoga",
+    "leipzig"
+  ],
+  "author": "Antonia Hoffmann",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "mdb-ui-kit": "^7.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "parcel": "^2.11.0"
+  }
+}

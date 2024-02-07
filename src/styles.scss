@@ -1,0 +1,43 @@
+$primary: #FFD8E4;
+
+$theme-colors: (
+        'primary': $primary,
+);
+
+@import '../node_modules/mdb-ui-kit/css/mdb.min.css';
+@import '../node_modules/mdb-ui-kit/src/scss/mdb.free';
+
+.hero-section {
+  padding: 50px 0;
+  text-align: center;
+
+  img {
+    border-radius: 50%;
+    max-width: 150px;
+    border: 5px solid $primary;
+    margin-bottom: 20px;
+  }
+}
+
+.timetable-section {
+  padding: 1em 1em;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}
