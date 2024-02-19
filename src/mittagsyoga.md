@@ -14,4 +14,4 @@ Im Raum sind Matten und Platz für 7 Teilnehmer*innen vorhanden.
 Bezahlung Bar vor Ort oder auf mein Konto: IBAN
 DE85 2004 1b155 0245 8222 00, Verwendungszweck: “Mittagsyoga,Name,Datum”
 
-Bitte melde dich per Telegramm-Kanal oder E-Mail verbindlich An oder Ab.
+Bitte melde dich per [Telegramm-Kanal](https://t.me/yoga_mit_antonia) oder [E-Mail](mailto:yoga-mit-antonia@posteo.de) verbindlich An oder Ab.
