@@ -1,4 +1,7 @@
-$primary: #FFD8E4;
+
+
+$primary: #cb86c2;
+$cardBg: #ffffff;
 
 $theme-colors: (
         'primary': $primary,
@@ -13,10 +16,14 @@ $theme-colors: (
 
   img {
     border-radius: 50%;
-    max-width: 150px;
+    max-width: 20em;
     border: 5px solid $primary;
     margin-bottom: 20px;
   }
+}
+
+.card{
+  background-color: $cardBg;
 }
 
 .timetable-section {
