@@ -18,18 +18,12 @@
 
 <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
   <div class="container">
-    <a class="navbar-brand" href="#">Yoga mit Antonia</a>
-    <button aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation" class="navbar-toggler"
-            data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav"></div>
+    <span class="navbar-brand">Yoga mit Antonia</span>
   </div>
 </nav>
 
-<section class="hero-section" id="home">
-  <div class="container">
+<section>
+  <div class="container hero-section">
     <img
       alt="Antonia"
       class="img-fluid" src="../assets/images/profile.jpg">
@@ -38,27 +32,45 @@
   </div>
 </section>
 
-<section class="timetable-section py-5 mx-auto">
-  <div class="card centered-card rounded-9">
-    <div class="card-body mx-auto">
-
-      <h4 class="card-title text-center">Mittagsyoga</h4>
-      <p class="card-text mittagsyoga">
+<section>
+  <div class="container timetable-section">
+    <div class="card mx-auto">
+      <div class="card-body">
+        <h4 class="card-title text-center">Mittagsyoga</h4>
+        <p class="card-text mittagsyoga">
+      </div>
     </div>
   </div>
 </section>
 
-<div class="method text-center"></div>
+<section class="py-4">
+  <div class="container method"></div>
+</section>
+
+<div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Impressum</h5>
+        <button aria-label="Close" class="btn-close" data-mdb-dismiss="modal" data-mdb-ripple-init
+                type="button"></button>
+      </div>
+      <div class="modal-body impressum-body"></div>
+    </div>
+  </div>
+</div>
 
 <footer class="text-center bg-body-tertiary">
   <div class="container pt-4">
     <section class="mb-4">
-      <a
-        class="btn btn-link btn-floating btn-lg text-body m-1"
-        href="impressum.html">Impressum</a>
+      <div class="btn btn-link btn-floating btn-lg text-body m-1" data-mdb-modal-init data-mdb-target="#exampleModal"
+           type="button">
+        Impressum
+      </div>
     </section>
   </div>
 </footer>
+
 </body>
 
 </html>

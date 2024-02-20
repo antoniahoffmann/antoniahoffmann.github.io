@@ -13,7 +13,9 @@ So könnte eine Stunde zum Beispiel das Thema “Standfestigkeit” habe und ver
 stabiles Fundament in Beinen und Füßen aufbauen können, dass uns dann auf der Matte aber auch darüber hinaus trägt und
 Halt gibt.
 
-Aus- und Weiterbildungen:
+<br>
+
+#### Aus- und Weiterbildungen:
 
 | Wann         | Was                                 |
 |--------------|-------------------------------------|
@@ -24,5 +26,4 @@ Aus- und Weiterbildungen:
 | ab Sep. 2024 | Personal Yoga (100h)                |
 
 Außerdem unterrichte ich mehrmals die Woche im **Element Ost - Studios für Yoga und Bewegungslehre.**
-Hier geht es zum [Stundenplan](https://element-ost.yoga/stundenplan-buchung")
-
+Hier geht es zum [Stundenplan](https://element-ost.yoga/stundenplan-buchung").

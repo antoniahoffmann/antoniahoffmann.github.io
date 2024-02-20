@@ -1,5 +1,6 @@
 {
   "marked": {
-    "mangle": false
+    "mangle": false,
+    "headerIds": false
   }
 }
