@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Yoga mit Antonia",
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "parcel src/index.html --no-cache",
     "build": "parcel build src/index.html && cp CNAME dist/"
   },
   "repository": {
