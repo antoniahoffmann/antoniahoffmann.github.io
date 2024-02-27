@@ -1,4 +1,5 @@
-$primary: #FFD8E4;
+$primary: #bd637e;
+$cardBg: #a5bed2;
 
 $theme-colors: (
         'primary': $primary,
@@ -13,22 +14,24 @@ $theme-colors: (
 
   img {
     border-radius: 50%;
-    max-width: 150px;
+    max-width: 20em;
     border: 5px solid $primary;
     margin-bottom: 20px;
   }
 }
 
+.card {
+  background-color: $cardBg;
+}
+
 .timetable-section {
   padding: 1rem 1rem;
+  max-width: 50rem;
 }
 
-.centered-card {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100rem;
+.method {
+  max-width: 50rem;
 }
-
 
 html, body {
   height: 100%;
@@ -39,10 +42,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.content {
-  flex: 1;
 }
 
 footer {
