@@ -6,4 +6,4 @@ Du verbringst einige Stunden am Tag am Schreibtisch? Dann ist diese Yogaklasse g
 * Bitte melde dich per [Telegramm-Kanal](https://t.me/yoga_mit_antonia) oder [E-Mail](mailto:yoga-mit-antonia@posteo.de) verbindlich An oder Ab.
 * Probestunde 10€ | Einzelticket 15€ | 5-er Ticket 65€
 * Bezahlung Bar vor Ort oder auf mein Konto: IBAN
-DE85 2004 1155 0245 8222 00, Verwendungszweck: “Mittagsyoga,Name,Datum”
+DE85200411550245822200, Verwendungszweck: “Mittagsyoga,Name,Datum”
