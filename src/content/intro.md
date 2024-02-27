@@ -1,3 +1,3 @@
 # Hallo!
 
-Ich bin Antonia und unterrichte Yoga in Leipzig
+Ich bin Antonia und unterrichte Yoga in Leipzig.
