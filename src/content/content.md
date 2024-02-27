@@ -1,4 +1,4 @@
-# Element Yoga Methode
+## Element Yoga Methode
 
 Die Frage, wie ich Yoga praktizieren kann, sodass es sich für mich richtig gut anfühlt, hat mich zur Ausbildung beim Element Yoga Berlin gebracht. Dort durfte ich eine moderne, undogmatische und präzise Methode erlernen. Elementyoga verbindet klassisches Hatha-Yoga mit den fünf Elementen des Ayurveda sowie moderner Bewegungslehre. Während meiner Aus- und Weiterbildungen habe ich gelernt, wie Haltungen und Bewegungen so praktiziert werden können, dass sie nicht nur individuell anpassbar sind, sondern auch, wie wir sie ausführen können, um langfristig gesund und verletzungsfrei zu üben.
 
