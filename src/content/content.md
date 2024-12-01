@@ -15,7 +15,4 @@ Im Zentrum der Element Yoga Methode stehen die fünf Elemente – Erde, Wasser, 
 | 2023         | Yin Yoga (100h)                     |
 | 2023-24      | Advanced Alignment (100h)           |
 | 2024         | Prä- und Postnatal Yoga (50h)       |
-| ab Sep. 2024 | Personal Yoga (100h)                |
-
-Außerdem unterrichte ich mehrmals die Woche im **Element Ost - Studios für Yoga und Bewegungslehre.**  
-Hier geht es zum [Stundenplan](https://element-ost.yoga/stundenplan-buchung).
+| 2024-25      | Personal Yoga (100h)                |
