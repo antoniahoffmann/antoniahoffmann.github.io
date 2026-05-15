@@ -68,10 +68,20 @@
       <span class="brand-mark">A</span>
       <span>Yoga mit Antonia</span>
     </div>
-    <div class="footer-contact impressum-body"></div>
+    <button type="button" class="footer-link" data-open-impressum>Impressum</button>
     <p class="footer-meta">© <span class="year"></span> Antonia Hoffmann</p>
   </div>
 </footer>
+
+<dialog class="impressum-dialog" aria-labelledby="impressum-title">
+  <div class="impressum-dialog-inner">
+    <div class="impressum-dialog-head">
+      <h3 id="impressum-title">Impressum</h3>
+      <button type="button" class="impressum-close" aria-label="Schließen" data-close-impressum>&times;</button>
+    </div>
+    <div class="impressum-body"></div>
+  </div>
+</dialog>
 
 </body>
 </html>

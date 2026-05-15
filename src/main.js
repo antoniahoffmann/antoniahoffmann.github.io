@@ -12,3 +12,14 @@ document.body.querySelector('.impressum-body').innerHTML = impressum;
 
 const yearEl = document.body.querySelector('.year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+const dialog = document.querySelector('.impressum-dialog');
+document.querySelectorAll('[data-open-impressum]').forEach((btn) => {
+  btn.addEventListener('click', () => dialog?.showModal());
+});
+document.querySelectorAll('[data-close-impressum]').forEach((btn) => {
+  btn.addEventListener('click', () => dialog?.close());
+});
+dialog?.addEventListener('click', (e) => {
+  if (e.target === dialog) dialog.close();
+});
