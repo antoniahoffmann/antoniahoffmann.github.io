@@ -1,76 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Yoga mit Antonia</title>
+  <meta name="description"
+        content="Yoga mit Antonia – Element Yoga in Leipzig. Sanft, präzise und individuell.">
+  <title>Yoga mit Antonia – Leipzig</title>
   <script src="main.js" type="module"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    rel="stylesheet"/>
-  <link
-    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap"
     rel="stylesheet"/>
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-  <div class="container">
-    <span class="navbar-brand">Yoga mit Antonia</span>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">A</span>
+      <span class="brand-text">Yoga mit Antonia</span>
+    </a>
+    <nav class="site-nav" aria-label="Hauptnavigation">
+      <a href="#kurse">Kurse</a>
+      <a href="#methode">Methode</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
   </div>
-</nav>
+</header>
 
-<section>
-  <div class="container hero-section">
-    <img
-      alt="Antonia"
-      class="img-fluid" src="../assets/images/profile.jpg">
+<main id="top">
 
-    <div class="intro"></div>
-  </div>
-</section>
-
-<section>
-  <div class="container timetable-section">
-    <div class="card mx-auto">
-      <div class="card-body">
-        <h2 class="card-title text-center">Mittagsyoga</h2>
-        <p class="card-text mittagsyoga">
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-image">
+        <img alt="Antonia Hoffmann" src="../assets/images/profile.jpg">
+      </div>
+      <div class="hero-text">
+        <p class="eyebrow">Element Yoga · Leipzig</p>
+        <div class="intro"></div>
+        <a href="#kontakt" class="btn-primary">Kontakt aufnehmen</a>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="py-4">
-  <div class="container method"></div>
-</section>
-
-<div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Impressum</h5>
-        <button aria-label="Close" class="btn-close" data-mdb-dismiss="modal" data-mdb-ripple-init
-                type="button"></button>
-      </div>
-      <div class="modal-body impressum-body"></div>
+  <section id="kurse" class="section section-muted">
+    <div class="container narrow">
+      <h2 class="section-title">Kurse</h2>
+      <div class="divider"></div>
+      <div class="kurse-content"></div>
     </div>
-  </div>
-</div>
+  </section>
 
-<footer class="text-center bg-body-tertiary">
-  <div class="container pt-4">
-    <section class="mb-4">
-      <div class="btn btn-link btn-floating btn-lg text-body m-1" data-mdb-modal-init data-mdb-target="#exampleModal"
-           type="button">
-        Impressum
-      </div>
-    </section>
+  <section id="methode" class="section">
+    <div class="container narrow">
+      <div class="method"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="kontakt" class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark">A</span>
+      <span>Yoga mit Antonia</span>
+    </div>
+    <div class="footer-contact impressum-body"></div>
+    <p class="footer-meta">© <span class="year"></span> Antonia Hoffmann</p>
   </div>
 </footer>
 
 </body>
-
 </html>
